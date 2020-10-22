@@ -1,0 +1,55 @@
+body {
+  padding: 30px;
+}
+
+.essay-container {
+  display: flex;
+}
+
+.essay-left-panel {
+  width: 100px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.essay-left-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.essay-left-panel ul li {
+  padding: 10px;
+  margin: 2px;
+  background: #59a459;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.essay-left-panel ul li.active,
+.essay-left-panel ul li:hover {
+  background: #98d598;
+}
+
+.essay-right-panel {
+  padding: 20px;
+  border: 1px solid;
+}
+
+.answer-textbox-container {
+  padding: 20px 0;
+}
+
+.answer-textbox-container textarea {
+  width: 100%;
+}
+
+.explanation {
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 11px;
+  border: 1px solid;
+  background: #f3f1f1;
+}
